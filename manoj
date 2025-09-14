@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- (code already added for you!) -->
+</html>
+
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: 'DotGothic16', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #000;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+h1 {
+  letter-spacing: 2px;
+  font-size: 2.2em;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  margin: 0 12px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+main {
+  padding: 32px 16px;
+  max-width: 700px;
+  margin: auto;
+}
+section {
+  margin-bottom: 32px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 24px;
+}
+section:last-child {
+  border-bottom: none;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+}
+textarea {
+  width: 100%;
+  min-height: 80px;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  margin-top: 10px;
+}
+input[type="date"], input[type="number"] {
+  font-size: 1em;
+  padding: 6px;
+  margin-top: 10px;
+}
+button {
+  font-size: 1em;
+  padding: 7px 16px;
+  border-radius: 5px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 8px;
+}
+button:hover {
+  background: #333;
+}
+#clockTime {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: 'DotGothic16', monospace;
+}
+#timerDisplay {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #d00;
+}
+footer {
+  background: #eee;
+  color: #222;
+  text-align: center;
+  padding: 16px;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+// Clock
+function updateClock() {
+  const now = new Date();
+  // ...rest of the JS code...
+}
